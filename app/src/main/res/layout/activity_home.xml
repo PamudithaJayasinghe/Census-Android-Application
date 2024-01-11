@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutH"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="377dp"
+        android:layout_height="115dp"
+        android:editable="false"
+        android:text="@string/this_app_was_developed_by_m_k_m_g_p_a_jayasinghe_d_bce_21_0007"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.235"
+        tools:ignore="Deprecated" />
+
+    <Button
+        android:id="@+id/pref"
+        android:layout_width="145dp"
+        android:layout_height="53dp"
+        android:backgroundTint="@color/black"
+        android:onClick="onclickpref"
+        android:text="@string/preferences"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.815" />
+
+    <Button
+        android:id="@+id/addData"
+        android:layout_width="142dp"
+        android:layout_height="52dp"
+        android:backgroundTint="@color/black"
+        android:onClick="onclickad"
+        android:text="@string/add_data"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.456" />
+
+    <Button
+        android:id="@+id/listData"
+        android:layout_width="142dp"
+        android:layout_height="52dp"
+        android:backgroundTint="@color/black"
+        android:onClick="onclickld"
+        android:text="List Data"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.586" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toStartOf="@+id/addData"
+        app:layout_constraintTop_toTopOf="@+id/addData"
+        app:srcCompat="@drawable/add" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="41dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toStartOf="@+id/listData"
+        app:layout_constraintTop_toTopOf="@+id/listData"
+        app:srcCompat="@drawable/list" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="41dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/pref"
+        app:layout_constraintTop_toTopOf="@+id/pref"
+        app:srcCompat="@drawable/set" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

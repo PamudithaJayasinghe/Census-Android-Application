@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Census</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="add_data">Add Data</string>
+    <string name="preferences">Preferences</string>
+    <string name="this_app_was_developed_by_m_k_m_g_p_a_jayasinghe_d_bce_21_0007">This app was developed by M.K.M.G.P.A. Jayasinghe (D/BCE/21/0007)</string>
+</resources>

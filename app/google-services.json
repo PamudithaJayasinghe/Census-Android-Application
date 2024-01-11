@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "937514747335",
+    "project_id": "census-71b0c",
+    "storage_bucket": "census-71b0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937514747335:android:d61c7a70aa391fea7a05e2",
+        "android_client_info": {
+          "package_name": "com.example.census"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937514747335-c7its9bv1hhsau0p8itg6q6u9oqluubq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.census",
+            "certificate_hash": "4bd4eae14d874de5010f1ff392c0407b2e67e549"
+          }
+        },
+        {
+          "client_id": "937514747335-6dfa3qs51hb0ogeld9pa1ev39fei9uca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPoULw1dEZ5wxAs1h9Y09Cl7HI1UZQXmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937514747335-6dfa3qs51hb0ogeld9pa1ev39fei9uca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
